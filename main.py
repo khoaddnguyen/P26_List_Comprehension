@@ -6,8 +6,6 @@ with open("file2.txt") as file2:
 
 result = [int(num) for num in file_1_data if num in file_2_data]
 
-# Write your code above 👆
-
 print(result)
 
 
